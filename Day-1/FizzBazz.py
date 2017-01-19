@@ -1,6 +1,6 @@
 
 def fizz_buzz(number):
-        print("Fizz"*(not number % 3) + "Buzz"*(not number % 5) or number)
+        print("Fizz"*(not number % 3) + "Buzz"*(not number % 5) or number)#prints Fizz if statement is True and and Buzz if wrong (prints("Fizz"+"Buzz" if both are true) otherwise prints the number 
 
 fizz_buzz(5)
 fizz_buzz(25)
