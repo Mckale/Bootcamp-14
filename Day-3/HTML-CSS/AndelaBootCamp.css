@@ -53,7 +53,8 @@ background-color:#cccccc;
 	
    background:#383;
     color: white;
-   cursor: default;}
+   cursor: default;
+   }
 
 #navigation ul {
 	margin: 0;
@@ -109,7 +110,7 @@ background-color:#cccccc;
 	text-decoration: none;
 }
 #section-navigation a:hover {
-	color: #ffd700;;
+	color: #ffd700;
 
 }
 #content {
@@ -155,11 +156,27 @@ margin: 15px auto;
 padding: 10px 20px 20px 10px;
 
 	}
+
 #aside h3 {
-	margin: 0;
+	margin: 5;
 	color: #338833;
-	padding:23px 5px 0px 5px;
+	padding:23px 5px 0px 30px;
 }
+#aside ul {
+	list-style:none;
+	font-family:monospace;
+	
+}
+#aside li {
+	list-style:none;
+	padding:0px 0px 25px 0px;
+	
+}
+#aside ul li a.y,hover {
+   background:white;
+    color:#9091e4;
+   cursor:inherit;
+   }
 #footer {
   float: left;
 	border-radius: 2px;
